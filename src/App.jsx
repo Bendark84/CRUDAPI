@@ -4,8 +4,6 @@ import { useEffect, useState } from 'react';
 import './App.css';
 import UsersList from './components/Users/UsersList';
 import UsersForm from './components/Users/UsersForm';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import {} from '@fortawesome/free-solid-svg-icons';
 
 const App = () => {
   /*******************CRUD USERS********************* */
@@ -48,7 +46,6 @@ const App = () => {
 
   return (
     <div>
-      {/* <CarsList cars={cars} /> */}
       <UsersForm
         getUsers={getUsers}
         userSelected={userSelected}
